@@ -1,0 +1,13 @@
+.quarter{
+    border-color: black;
+    border-radius: 50%;
+}
+@keyframes quarter {
+    from{background-color: darkgrey;}
+    to{background-color: black;}
+}
+.quarterAni{
+    box-shadow: lightgrey;
+    animation-name: quarter;
+    animation-duration: 1ms;
+}
